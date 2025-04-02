@@ -1,2 +1,2 @@
 # iiif-workshop
-iii presentation api workshop
+iiif presentation api workshop
