@@ -1,0 +1,240 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://example.org/aq9h1pd88vl-m902z5he",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Georgia's Digirati Manifest"
+    ]
+  },
+  "items": [
+    {
+      "id": "https://example.org/aq9h1pd88vl-m902z5he/canvas/f387wghs9nw-m9032e9d",
+      "type": "Canvas",
+      "height": 2221,
+      "width": 3100,
+      "label": {
+        "en": [
+          "Shark"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/aq9h1pd88vl-m902z5he/canvas/f387wghs9nw-m9032e9d/annotation-page/igniujkta0l-m9032e9d",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/aq9h1pd88vl-m902z5he/annotation/fn68frvehcg-m9032e9d",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/aq9h1pd88vl-m902z5he/canvas/f387wghs9nw-m9032e9d",
+              "body": {
+                "id": "https://iiif.wellcomecollection.org/image/V0023302/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 2221,
+                "width": 3100,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wellcomecollection.org/image/V0023302",
+                    "@type": "iiif:Image",
+                    "profile": [
+                      "http://iiif.io/api/image/2/level2.json",
+                      {
+                        "formats": [
+                          "tif",
+                          "jpg",
+                          "gif",
+                          "png"
+                        ],
+                        "qualities": [
+                          "bitonal",
+                          "default",
+                          "gray",
+                          "color"
+                        ],
+                        "supports": [
+                          "regionByPx",
+                          "sizeByW",
+                          "sizeByWhListed",
+                          "cors",
+                          "regionSquare",
+                          "sizeByDistortedWh",
+                          "canonicalLinkHeader",
+                          "sizeByConfinedWh",
+                          "sizeByPct",
+                          "jsonldMediaType",
+                          "regionByPct",
+                          "rotationArbitrary",
+                          "sizeByH",
+                          "baseUriRedirect",
+                          "rotationBy90s",
+                          "profileLinkHeader",
+                          "sizeByForcedWh",
+                          "sizeByWh",
+                          "mirroring"
+                        ]
+                      }
+                    ],
+                    "protocol": "http://iiif.io/api/image",
+                    "width": 3100,
+                    "height": 2221,
+                    "sizes": [
+                      {
+                        "width": 1024,
+                        "height": 734
+                      },
+                      {
+                        "width": 400,
+                        "height": 287
+                      },
+                      {
+                        "width": 200,
+                        "height": 143
+                      },
+                      {
+                        "width": 100,
+                        "height": 72
+                      }
+                    ],
+                    "tiles": [
+                      {
+                        "width": 512,
+                        "height": 512,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32
+                        ]
+                      }
+                    ],
+                    "id": "https://iiif.wellcomecollection.org/image/V0023302",
+                    "type": "iiif:Image"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/aq9h1pd88vl-m902z5he/canvas/4pb9ccqijdc-m9033jid",
+      "type": "Canvas",
+      "height": 3183,
+      "width": 2328,
+      "label": {
+        "en": [
+          "Flowers"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/aq9h1pd88vl-m902z5he/canvas/4pb9ccqijdc-m9033jid/annotation-page/xk66jowwq-m9033jid",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/aq9h1pd88vl-m902z5he/annotation/f7eoipju61-m9033jic",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/aq9h1pd88vl-m902z5he/canvas/4pb9ccqijdc-m9033jid",
+              "body": {
+                "id": "https://iiif.wellcomecollection.org/image/V0044623/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3183,
+                "width": 2328,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wellcomecollection.org/image/V0044623",
+                    "@type": "iiif:Image",
+                    "profile": [
+                      "http://iiif.io/api/image/2/level2.json",
+                      {
+                        "formats": [
+                          "tif",
+                          "jpg",
+                          "gif",
+                          "png"
+                        ],
+                        "qualities": [
+                          "bitonal",
+                          "default",
+                          "gray",
+                          "color"
+                        ],
+                        "supports": [
+                          "regionByPx",
+                          "sizeByW",
+                          "sizeByWhListed",
+                          "cors",
+                          "regionSquare",
+                          "sizeByDistortedWh",
+                          "canonicalLinkHeader",
+                          "sizeByConfinedWh",
+                          "sizeByPct",
+                          "jsonldMediaType",
+                          "regionByPct",
+                          "rotationArbitrary",
+                          "sizeByH",
+                          "baseUriRedirect",
+                          "rotationBy90s",
+                          "profileLinkHeader",
+                          "sizeByForcedWh",
+                          "sizeByWh",
+                          "mirroring"
+                        ]
+                      }
+                    ],
+                    "protocol": "http://iiif.io/api/image",
+                    "width": 2328,
+                    "height": 3183,
+                    "sizes": [
+                      {
+                        "width": 749,
+                        "height": 1024
+                      },
+                      {
+                        "width": 293,
+                        "height": 400
+                      },
+                      {
+                        "width": 146,
+                        "height": 200
+                      },
+                      {
+                        "width": 73,
+                        "height": 100
+                      }
+                    ],
+                    "tiles": [
+                      {
+                        "width": 512,
+                        "height": 512,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32
+                        ]
+                      }
+                    ],
+                    "id": "https://iiif.wellcomecollection.org/image/V0044623",
+                    "type": "iiif:Image"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,751 @@
+{
+  "@context": [
+    "http://iiif.io/api/presentation/3/context.json",
+    "http://iiif.io/api/extension/navplace/context.json"
+  ],
+  "id": "https://example.org/yq3mzc5r0z-m92xpfjm",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Wellcome Collection x Iceland"
+    ]
+  },
+  "items": [
+    {
+      "id": "https://example.org/yq3mzc5r0z-m92xpfjm/canvas/tecumsll9er-m92xqb2v",
+      "type": "Canvas",
+      "height": 2298,
+      "width": 3071,
+      "label": {
+        "en": [
+          "A jet of steam on a sulphur mountain, Iceland. Coloured aquatint by J. Clark, 1811, after Sir George Mackenzie."
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/yq3mzc5r0z-m92xpfjm/canvas/tecumsll9er-m92xqb2v/annotation-page/bkn2qs7kasa-m92xqb2v",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/yq3mzc5r0z-m92xpfjm/annotation/4ky8h0d07su-m92xqb2u",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/yq3mzc5r0z-m92xpfjm/canvas/tecumsll9er-m92xqb2v",
+              "body": {
+                "id": "https://iiif.wellcomecollection.org/image/V0025220/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 2298,
+                "width": 3071,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wellcomecollection.org/image/V0025220",
+                    "@type": "iiif:Image",
+                    "profile": [
+                      "http://iiif.io/api/image/2/level2.json",
+                      {
+                        "formats": [
+                          "tif",
+                          "jpg",
+                          "gif",
+                          "png"
+                        ],
+                        "qualities": [
+                          "bitonal",
+                          "default",
+                          "gray",
+                          "color"
+                        ],
+                        "supports": [
+                          "regionByPx",
+                          "sizeByW",
+                          "sizeByWhListed",
+                          "cors",
+                          "regionSquare",
+                          "sizeByDistortedWh",
+                          "canonicalLinkHeader",
+                          "sizeByConfinedWh",
+                          "sizeByPct",
+                          "jsonldMediaType",
+                          "regionByPct",
+                          "rotationArbitrary",
+                          "sizeByH",
+                          "baseUriRedirect",
+                          "rotationBy90s",
+                          "profileLinkHeader",
+                          "sizeByForcedWh",
+                          "sizeByWh",
+                          "mirroring"
+                        ]
+                      }
+                    ],
+                    "protocol": "http://iiif.io/api/image",
+                    "width": 3071,
+                    "height": 2298,
+                    "sizes": [
+                      {
+                        "width": 1024,
+                        "height": 766
+                      },
+                      {
+                        "width": 400,
+                        "height": 299
+                      },
+                      {
+                        "width": 200,
+                        "height": 150
+                      },
+                      {
+                        "width": 100,
+                        "height": 75
+                      }
+                    ],
+                    "tiles": [
+                      {
+                        "width": 512,
+                        "height": 512,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32
+                        ]
+                      }
+                    ],
+                    "id": "https://iiif.wellcomecollection.org/image/V0025220",
+                    "type": "iiif:Image"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "navPlace": {
+        "id": "https://www.wikidata.org/wiki/Q2795016",
+        "type": "Place",
+        "label": {
+          "en": [
+            "N\u00e1mafjall"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://example.org/yq3mzc5r0z-m92xpfjm/canvas/wxiv2feou9n-m92xrm2r",
+      "type": "Canvas",
+      "height": 2402,
+      "width": 3187,
+      "label": {
+        "en": [
+          "Geology: a plan [?] of a rift or fissure in mountains at Surtshellir, Iceland. Engraving."
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/yq3mzc5r0z-m92xpfjm/canvas/wxiv2feou9n-m92xrm2r/annotation-page/p2cygm55a7-m92xrm2r",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/yq3mzc5r0z-m92xpfjm/annotation/29mxn1oxm63-m92xrm2r",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/yq3mzc5r0z-m92xpfjm/canvas/wxiv2feou9n-m92xrm2r",
+              "body": {
+                "id": "https://iiif.wellcomecollection.org/image/V0025118/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 2402,
+                "width": 3187,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wellcomecollection.org/image/V0025118",
+                    "@type": "iiif:Image",
+                    "profile": [
+                      "http://iiif.io/api/image/2/level2.json",
+                      {
+                        "formats": [
+                          "jpg",
+                          "tif",
+                          "gif",
+                          "png"
+                        ],
+                        "qualities": [
+                          "bitonal",
+                          "default",
+                          "gray",
+                          "color"
+                        ],
+                        "supports": [
+                          "regionByPx",
+                          "sizeByW",
+                          "sizeByWhListed",
+                          "cors",
+                          "regionSquare",
+                          "sizeByDistortedWh",
+                          "canonicalLinkHeader",
+                          "sizeByConfinedWh",
+                          "sizeByPct",
+                          "jsonldMediaType",
+                          "regionByPct",
+                          "rotationArbitrary",
+                          "sizeByH",
+                          "baseUriRedirect",
+                          "rotationBy90s",
+                          "profileLinkHeader",
+                          "sizeByForcedWh",
+                          "sizeByWh",
+                          "mirroring"
+                        ]
+                      }
+                    ],
+                    "protocol": "http://iiif.io/api/image",
+                    "width": 3187,
+                    "height": 2402,
+                    "sizes": [
+                      {
+                        "width": 1024,
+                        "height": 772
+                      },
+                      {
+                        "width": 400,
+                        "height": 301
+                      },
+                      {
+                        "width": 200,
+                        "height": 151
+                      },
+                      {
+                        "width": 100,
+                        "height": 75
+                      }
+                    ],
+                    "tiles": [
+                      {
+                        "width": 512,
+                        "height": 512,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32
+                        ]
+                      }
+                    ],
+                    "id": "https://iiif.wellcomecollection.org/image/V0025118",
+                    "type": "iiif:Image"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "navPlace": {
+        "id": "https://www.wikidata.org/wiki/Q1788663", 
+        "type": "Place",
+        "label": {
+          "en": [
+            "Surtshellir"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://example.org/yq3mzc5r0z-m92xpfjm/canvas/0femj3f8j66r-m92xsqc1",
+      "type": "Canvas",
+      "height": 1555,
+      "width": 1877,
+      "label": {
+        "en": [
+          "Eyjafjallaj\u00f6kull, Iceland. Coloured aquatint by J. Clark, 1811, after H. Holland."
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/yq3mzc5r0z-m92xpfjm/canvas/0femj3f8j66r-m92xsqc1/annotation-page/448ueu4mjfe-m92xsqc1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/yq3mzc5r0z-m92xpfjm/annotation/j5w16bodgf-m92xsqc0",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/yq3mzc5r0z-m92xpfjm/canvas/0femj3f8j66r-m92xsqc1",
+              "body": {
+                "id": "https://iiif.wellcomecollection.org/image/V0025221ET/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1555,
+                "width": 1877,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wellcomecollection.org/image/V0025221ET",
+                    "@type": "iiif:Image",
+                    "profile": [
+                      "http://iiif.io/api/image/2/level2.json",
+                      {
+                        "formats": [
+                          "tif",
+                          "jpg",
+                          "gif",
+                          "png"
+                        ],
+                        "qualities": [
+                          "bitonal",
+                          "default",
+                          "gray",
+                          "color"
+                        ],
+                        "supports": [
+                          "regionByPx",
+                          "sizeByW",
+                          "sizeByWhListed",
+                          "cors",
+                          "regionSquare",
+                          "sizeByDistortedWh",
+                          "canonicalLinkHeader",
+                          "sizeByConfinedWh",
+                          "sizeByPct",
+                          "jsonldMediaType",
+                          "regionByPct",
+                          "rotationArbitrary",
+                          "sizeByH",
+                          "baseUriRedirect",
+                          "rotationBy90s",
+                          "profileLinkHeader",
+                          "sizeByForcedWh",
+                          "sizeByWh",
+                          "mirroring"
+                        ]
+                      }
+                    ],
+                    "protocol": "http://iiif.io/api/image",
+                    "width": 1877,
+                    "height": 1555,
+                    "sizes": [
+                      {
+                        "width": 1024,
+                        "height": 848
+                      },
+                      {
+                        "width": 400,
+                        "height": 331
+                      },
+                      {
+                        "width": 200,
+                        "height": 166
+                      },
+                      {
+                        "width": 100,
+                        "height": 83
+                      }
+                    ],
+                    "tiles": [
+                      {
+                        "width": 512,
+                        "height": 512,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16
+                        ]
+                      }
+                    ],
+                    "id": "https://iiif.wellcomecollection.org/image/V0025221ET",
+                    "type": "iiif:Image"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "navPlace": {
+        "id": "https://www.wikidata.org/wiki/Q113446",
+        "type": "Place",
+        "label": {
+          "en": [
+            "Eyjafjallaj\u00f6kull"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://example.org/yq3mzc5r0z-m92xpfjm/canvas/8nvr84srlyk-m92xte5c",
+      "type": "Canvas",
+      "height": 2496,
+      "width": 3285,
+      "label": {
+        "en": [
+          "Mound and pipe after the \"Geyser\" hot water springs in Iceland have erupted. Coloured engraving by F. Chesham, 1797, after a drawing made in 1789."
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/yq3mzc5r0z-m92xpfjm/canvas/8nvr84srlyk-m92xte5c/annotation-page/e45hhep3jyk-m92xte5c",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/yq3mzc5r0z-m92xpfjm/annotation/uptc3fov8ql-m92xte5c",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/yq3mzc5r0z-m92xpfjm/canvas/8nvr84srlyk-m92xte5c",
+              "body": {
+                "id": "https://iiif.wellcomecollection.org/image/V0020106/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 2496,
+                "width": 3285,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wellcomecollection.org/image/V0020106",
+                    "@type": "iiif:Image",
+                    "profile": [
+                      "http://iiif.io/api/image/2/level2.json",
+                      {
+                        "formats": [
+                          "jpg",
+                          "tif",
+                          "gif",
+                          "png"
+                        ],
+                        "qualities": [
+                          "bitonal",
+                          "default",
+                          "gray",
+                          "color"
+                        ],
+                        "supports": [
+                          "regionByPx",
+                          "sizeByW",
+                          "sizeByWhListed",
+                          "cors",
+                          "regionSquare",
+                          "sizeByDistortedWh",
+                          "canonicalLinkHeader",
+                          "sizeByConfinedWh",
+                          "sizeByPct",
+                          "jsonldMediaType",
+                          "regionByPct",
+                          "rotationArbitrary",
+                          "sizeByH",
+                          "baseUriRedirect",
+                          "rotationBy90s",
+                          "profileLinkHeader",
+                          "sizeByForcedWh",
+                          "sizeByWh",
+                          "mirroring"
+                        ]
+                      }
+                    ],
+                    "protocol": "http://iiif.io/api/image",
+                    "width": 3285,
+                    "height": 2496,
+                    "sizes": [
+                      {
+                        "width": 1024,
+                        "height": 778
+                      },
+                      {
+                        "width": 400,
+                        "height": 304
+                      },
+                      {
+                        "width": 200,
+                        "height": 152
+                      },
+                      {
+                        "width": 100,
+                        "height": 76
+                      }
+                    ],
+                    "tiles": [
+                      {
+                        "width": 512,
+                        "height": 512,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32
+                        ]
+                      }
+                    ],
+                    "id": "https://iiif.wellcomecollection.org/image/V0020106",
+                    "type": "iiif:Image"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "navPlace": {
+        "id": "https://www.wikidata.org/wiki/Q154285",
+        "type": "Place",
+        "label": {
+          "en": [
+            "Geysir"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://example.org/yq3mzc5r0z-m92xpfjm/canvas/j4nm3sp6xh-m92xu561",
+      "type": "Canvas",
+      "height": 1553,
+      "width": 1874,
+      "label": {
+        "en": [
+          "A cauldron of boiling mud on a sulphur mountain, Iceland. Coloured aquatint by J. Clark, 1811, after Sir George Mackenzie."
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/yq3mzc5r0z-m92xpfjm/canvas/j4nm3sp6xh-m92xu561/annotation-page/7wlm2vfhf24-m92xu561",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/yq3mzc5r0z-m92xpfjm/annotation/x3ratx5m08-m92xu560",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/yq3mzc5r0z-m92xpfjm/canvas/j4nm3sp6xh-m92xu561",
+              "body": {
+                "id": "https://iiif.wellcomecollection.org/image/V0025221EB/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1553,
+                "width": 1874,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wellcomecollection.org/image/V0025221EB",
+                    "@type": "iiif:Image",
+                    "profile": [
+                      "http://iiif.io/api/image/2/level2.json",
+                      {
+                        "formats": [
+                          "tif",
+                          "jpg",
+                          "gif",
+                          "png"
+                        ],
+                        "qualities": [
+                          "bitonal",
+                          "default",
+                          "gray",
+                          "color"
+                        ],
+                        "supports": [
+                          "regionByPx",
+                          "sizeByW",
+                          "sizeByWhListed",
+                          "cors",
+                          "regionSquare",
+                          "sizeByDistortedWh",
+                          "canonicalLinkHeader",
+                          "sizeByConfinedWh",
+                          "sizeByPct",
+                          "jsonldMediaType",
+                          "regionByPct",
+                          "rotationArbitrary",
+                          "sizeByH",
+                          "baseUriRedirect",
+                          "rotationBy90s",
+                          "profileLinkHeader",
+                          "sizeByForcedWh",
+                          "sizeByWh",
+                          "mirroring"
+                        ]
+                      }
+                    ],
+                    "protocol": "http://iiif.io/api/image",
+                    "width": 1874,
+                    "height": 1553,
+                    "sizes": [
+                      {
+                        "width": 1024,
+                        "height": 849
+                      },
+                      {
+                        "width": 400,
+                        "height": 331
+                      },
+                      {
+                        "width": 200,
+                        "height": 166
+                      },
+                      {
+                        "width": 100,
+                        "height": 83
+                      }
+                    ],
+                    "tiles": [
+                      {
+                        "width": 512,
+                        "height": 512,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16
+                        ]
+                      }
+                    ],
+                    "id": "https://iiif.wellcomecollection.org/image/V0025221EB",
+                    "type": "iiif:Image"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "navPlace": {
+        "id": "https://www.wikidata.org/wiki/Q2795016",
+        "type": "Place",
+        "label": {
+          "en": [
+            "N\u00e1mafjall"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://example.org/yq3mzc5r0z-m92xpfjm/canvas/dvvry5t3os-m92xuxuk",
+      "type": "Canvas",
+      "height": 2436,
+      "width": 2882,
+      "label": {
+        "en": [
+          "Mount Hekla, Iceland, seen from the sea. Etching."
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/yq3mzc5r0z-m92xpfjm/canvas/dvvry5t3os-m92xuxuk/annotation-page/ii2f3y377ke-m92xuxuk",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/yq3mzc5r0z-m92xpfjm/annotation/dpdl69rxqn6-m92xuxuk",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/yq3mzc5r0z-m92xpfjm/canvas/dvvry5t3os-m92xuxuk",
+              "body": {
+                "id": "https://iiif.wellcomecollection.org/image/V0025192/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 2436,
+                "width": 2882,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wellcomecollection.org/image/V0025192",
+                    "@type": "iiif:Image",
+                    "profile": [
+                      "http://iiif.io/api/image/2/level2.json",
+                      {
+                        "formats": [
+                          "tif",
+                          "jpg",
+                          "gif",
+                          "png"
+                        ],
+                        "qualities": [
+                          "bitonal",
+                          "default",
+                          "gray",
+                          "color"
+                        ],
+                        "supports": [
+                          "regionByPx",
+                          "sizeByW",
+                          "sizeByWhListed",
+                          "cors",
+                          "regionSquare",
+                          "sizeByDistortedWh",
+                          "canonicalLinkHeader",
+                          "sizeByConfinedWh",
+                          "sizeByPct",
+                          "jsonldMediaType",
+                          "regionByPct",
+                          "rotationArbitrary",
+                          "sizeByH",
+                          "baseUriRedirect",
+                          "rotationBy90s",
+                          "profileLinkHeader",
+                          "sizeByForcedWh",
+                          "sizeByWh",
+                          "mirroring"
+                        ]
+                      }
+                    ],
+                    "protocol": "http://iiif.io/api/image",
+                    "width": 2882,
+                    "height": 2436,
+                    "sizes": [
+                      {
+                        "width": 1024,
+                        "height": 866
+                      },
+                      {
+                        "width": 400,
+                        "height": 338
+                      },
+                      {
+                        "width": 200,
+                        "height": 169
+                      },
+                      {
+                        "width": 100,
+                        "height": 85
+                      }
+                    ],
+                    "tiles": [
+                      {
+                        "width": 512,
+                        "height": 512,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32
+                        ]
+                      }
+                    ],
+                    "id": "https://iiif.wellcomecollection.org/image/V0025192",
+                    "type": "iiif:Image"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "navPlace": {
+        "id": "https://www.wikidata.org/wiki/Q565548",
+        "type": "Place",
+        "label": {
+          "en": [
+            "Hekla"
+          ]
+        }
+      }
+    }
+  ]
+}
